@@ -1,0 +1,27 @@
+@import '@ionic/angular/css/core.css';
+@import '@ionic/angular/css/normalize.css';
+@import '@ionic/angular/css/structure.css';
+@import '@ionic/angular/css/typography.css';
+@import '@ionic/angular/css/display.css';
+@import '@ionic/angular/css/padding.css';
+@import '@ionic/angular/css/float-elements.css';
+@import '@ionic/angular/css/text-alignment.css';
+@import '@ionic/angular/css/text-transformation.css';
+@import '@ionic/angular/css/flex-utils.css';
+
+
+// include the ios theme
+$mbsc-ios-theme: true;
+$mbsc-material-theme: true;
+$mbsc-mobiscroll-theme: true;
+$mbsc-windows-theme: true;
+
+// include the components:
+$mbsc-datepicker: true;
+$mbsc-eventcalendar: true;
+$mbsc-forms: true;
+$mbsc-grid-layout: true;
+$mbsc-popup: true;
+$mbsc-select: true;
+
+@import '@mobiscroll/angular-ivy/dist/css/mobiscroll.modular.scss';
