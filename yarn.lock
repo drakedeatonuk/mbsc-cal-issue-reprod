@@ -3210,20 +3210,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@mobiscroll/angular-ivy@npm:5.25.1":
-  version: 5.25.1
-  resolution: "@mobiscroll/angular-ivy@npm:5.25.1"
+"@mobiscroll/angular-ivy@npm:5.26.1":
+  version: 5.26.1
+  resolution: "@mobiscroll/angular-ivy@npm:5.26.1"
   peerDependencies:
     "@angular/common": ">=13.0.0"
     "@angular/core": ">=13.0.0"
     "@angular/forms": ">=13.0.0"
-  checksum: f52443cc1845148fb74b61269c30606c96d6344fb816bb02476b75b3b740987565162d2bc0b1063d7612cfefa8072bb44c79db9b5454105b2b0dee22f56ec203
+  checksum: d366d8c8c07d46805374016b007c64013444027d7f640b5f19fdca445b33924a26e4579410d80dcfff860ecb9c21d4e53c7c6802a0728569c6d52a9fb6737936
   languageName: node
   linkType: hard
 
-"@mobiscroll/cli@npm:1.11.0":
-  version: 1.11.0
-  resolution: "@mobiscroll/cli@npm:1.11.0"
+"@mobiscroll/cli@npm:latest":
+  version: 1.13.0
+  resolution: "@mobiscroll/cli@npm:1.13.0"
   dependencies:
     axios: ^0.27.0
     chalk: ^2.4.1
@@ -3236,7 +3236,7 @@ __metadata:
     terminal-link: ^1.2.0
   bin:
     mobiscroll: mobiscroll.js
-  checksum: 446873089d5adc1ce1d3699996e866df7547bad5dd9dd4d63d46df1ba202335359ba197696aea7c127762a23cfb26222e865f5f7f1291c800e13e84191da24ef
+  checksum: 7d56dafd240f7ad67fd6a50173a1151c7f1178cc53082fd78e6c5f3a9d472938ae8f763379859f536cea0e19eb6feabce05335df87590ad39cee3b8dc41fb238
   languageName: node
   linkType: hard
 
@@ -4174,8 +4174,8 @@ __metadata:
     "@ionic/angular": 7.1.1
     "@ionic/cli": ^7.1.1
     "@ionic/pwa-elements": ^3.1.1
-    "@mobiscroll/angular-ivy": 5.25.1
-    "@mobiscroll/cli": 1.11.0
+    "@mobiscroll/angular-ivy": 5.26.1
+    "@mobiscroll/cli": latest
     "@schematics/angular": 16.1.1
     rxjs: ^7.8.1
     tslib: ^2.6.0
