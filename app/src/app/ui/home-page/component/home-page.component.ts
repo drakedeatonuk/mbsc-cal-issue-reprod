@@ -1,4 +1,5 @@
 import { Component } from "@angular/core";
+import { MbscCalendarEventData, MbscEventList } from "@mobiscroll/angular-ivy";
 import { DateType } from "@mobiscroll/angular-ivy/dist/js/core/util/datetime";
 
 import { entries } from "../constants/home-page.constants";
@@ -18,5 +19,13 @@ export class HomePageComponent {
   maxDate: DateType = new Date('2022-01-01T01:00:00.000Z');
 
   constructor() {}
+
+  getDayKey(i: number, day: MbscEventList) {
+    return day.timestamp;
+  }
+
+  getEventKey(i: number, event: MbscCalendarEventData) {
+    return event.uid;
+  }
 
 }

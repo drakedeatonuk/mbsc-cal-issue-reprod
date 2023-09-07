@@ -24,9 +24,10 @@
           theme="ios" themeVariant="light" [agendaTemplate]="agendaTemplate">
 
           <ng-template #agendaTemplate let-data>
-            <ul *ngFor="let day of data" mbsc-event-list-day style="padding: 0;" [timestamp]="day.timestamp">
-              <h4>{{day.timestamp | date:'M/d/yy' }}</h4>
-              <app-agenda-slot *ngFor="let entry of day.events" [data]="entry.original">
+            <ul *ngFor="let day of data; trackBy: getDayKey" mbsc-event-list-day style="padding: 0;"
+              [timestamp]="day.timestamp">
+              <h4>{{day.timestamp | date:'d/M/yy' }}</h4>
+              <app-agenda-slot *ngFor="let entry of day.events; trackBy: getEventKey" [data]="entry.original">
               </app-agenda-slot>
             </ul>
           </ng-template>
